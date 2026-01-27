@@ -1,6 +1,6 @@
 # Hobby-Grade-RC-Electronics(Hardware+Software)
 All the work I've done so far.
- - PCB design of the ESC(Electronic Speed Controller) which will work as:
+ - PCB design of the ESC (Electronic Speed Controller) which will work as:
     - sensorless BLDC motor control
     - Brushed motor control
     - [Homework 1](https://github.com/Paraschiv-Stefan/Microcontrollers/tree/Homework-1)
