@@ -1,9 +1,9 @@
 # Hobby-Grade-RC-Electronics(Hardware+Software)
 All the work I've done so far.</br>
 
-The ESC uses a PIC18F4431 microcontroller
-The Controller uses a PIC16F15276 microcontroller
-The Receiver uses a ESP32-WROOM-32
+The ESC uses a PIC18F4431 microcontroller </br>
+The Controller uses a PIC16F15276 microcontroller </br>
+The Receiver uses a ESP32-WROOM-32 </br>
 
  - PCB design of the ESC (Electronic Speed Controller) which will work as:
     - sensorless BLDC motor control
