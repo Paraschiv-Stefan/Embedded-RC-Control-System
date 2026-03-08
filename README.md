@@ -1,4 +1,4 @@
-# Hobby-Grade-RC-Electronics(Hardware+Software)
+# Embedded Motor Control System for an RC Vehicle
 All the work I've done so far.
 
 
