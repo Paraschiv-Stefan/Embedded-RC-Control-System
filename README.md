@@ -4,6 +4,7 @@ All the work I've done so far.</br>
 The ESC uses a PIC18F4431 microcontroller </br>
 The Controller uses a PIC16F15276 microcontroller </br>
 The Receiver uses a ESP32-WROOM-32 </br>
+I have uploaded the excel file where you can find each component I used for the respective part ESC, RECEIVER or CONTROLLER </br>
 
  - PCB design of the ESC (Electronic Speed Controller) which will work as:
     - sensorless BLDC motor control
