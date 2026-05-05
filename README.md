@@ -4,6 +4,14 @@ Custom 3-phase sensorless BLDC ESC designed for high-performance RC applications
 
 ---
 
+## Schematic
+
+![Schematic](./Schematic.jpg)
+
+> Full system schematic including control logic, power stage, and feedback network.
+
+---
+
 ## Overview
 
 This ESC is built around a 50x50 mm **fully custom 6-layer PCB**, designed to handle high current loads while maintaining signal integrity for precise motor control.
@@ -44,7 +52,7 @@ It implements **sensorless commutation using BEMF detection**, enabling reliable
 ### Power Supply
 
 * **TPMS82903 Buck Converter**
-* Cappable of outputting: 5V | 3A (15W)
+* Capable of outputting: **5V | 3A (15W)**
   Powers:
 
   * Logic circuitry
@@ -82,6 +90,7 @@ It implements **sensorless commutation using BEMF detection**, enabling reliable
 ![Layer 3](./All_layers/Layer3.png)
 
 > This layer mirrors the power structure of layer two, with the exception that the logic ground is absent. Only the traces connecting the comparators to the microcontroller remain, alongside the power supply traces for the buck converter.
+
 ### Layer 4
 
 ![Layer 4](./All_layers/Layer4.png)
@@ -99,11 +108,28 @@ It implements **sensorless commutation using BEMF detection**, enabling reliable
 ![Layer 6](./All_layers/Layer6.png)
 
 > The final layer is dedicated primarily to the logic-side components. Given the compact board size (50×50 mm), placing components on the bottom side was necessary to meet density requirements. Also notable on this layer are the PWM traces running from the microcontroller to the gate drivers, which switch the MOSFETs and control the motor. In retrospect, routing these traces on an inner layer would have been preferable — the outer copper thickness is 35 µm compared to 17.5 µm on the inner layers, which leaves the outer power ground polygon with a heavier copper weight than intended. That said, no issues have been observed during testing so far.
+
 ---
-## ⚙️ Firmware
+
+## Real PCB
+
+### Front
+
+![PCB Front](./Real_PCB_Front.jpg)
+
+### Back
+
+![PCB Back](./Real_PCB_Back.jpg)
+
+> Final assembled board used for testing and validation.
+
+---
+
+## Firmware
 
 The firmware is adapted from:
-- [https://github.com/k-omura](https://github.com/k-omura/SensorlessBLDC_PIC18F1230)
+
+* https://github.com/k-omura/SensorlessBLDC_PIC18F1230
 
 Modified to:
 
@@ -118,7 +144,7 @@ Modified to:
 * **3660 BLDC Motor**
 * **4200KV**
 * **4 poles**
-* **Max RPM:** ~50,000\
+* **Max RPM:** ~50,000
 
 ---
 
