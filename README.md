@@ -61,7 +61,7 @@ The goal of this controller was to transmitt data over a radio module HC-12 whic
 
 ![Layer 2](./All_layers/layer2.png)
 
-> This layer is dominated by the ground plane, while also accommodating the analog signal traces associated with the joystick inputs, keeping them close to their reference plane for signal integrity.
+> This layer is dominated by the ground plane, while also accommodating the analog signal traces associated with the joystick inputs.
 
 ### Layer 3
 
