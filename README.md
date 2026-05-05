@@ -24,108 +24,109 @@ It implements **sensorless commutation using BEMF detection**, enabling reliable
 ### 🎛️ Motor Control & Feedback
 
 * **X9C103 Digital Potentiometer**
-  Used for tuning/control input (e.g., throttle or calibration adjustments)
+  Used for tuning/control input
 
 * **MCP6564 (Quad Comparator)**
-  Used alongside voltage dividers for **Back-EMF (BEMF) zero-crossing detection**, enabling sensorless commutation.
+  Used alongside voltage dividers for **Back-EMF (BEMF) zero-crossing detection**
 
 ---
 
 ### ⚡ Power Stage
 
 * **SIR626DP-T1-RE3 MOSFETs**
-  Low Rds(on) MOSFETs capable of handling high current loads required by RC motors.
+  Low Rds(on) MOSFETs for high current handling
 
 * **NCV51511 Gate Drivers**
-  High/low-side drivers using bootstrap topology for driving the MOSFETs efficiently.
+  Bootstrap high/low-side drivers for efficient switching
 
 ---
 
 ### 🔋 Power Supply
 
 * **TPMS82903 Buck Converter**
-  Steps down battery voltage to power:
+  Powers:
 
   * Logic circuitry
-  * Receiver module
+  * Receiver
 
 ---
 
 ## 🧱 PCB Design
 
-* **6-layer stackup** for:
+* **6-layer PCB**
+* Optimized for:
 
-  * Improved power distribution
-  * Reduced noise and EMI
-  * Better thermal performance
+  * Power distribution
+  * Noise reduction
+  * Thermal performance
 
 ---
 
 ## 🖼️ PCB Layers
 
-### Top Layer
+### Layer 1
 
-![Top Layer](./images/top.png)
+![Layer 1](./All_layers/Layer1.png)
 
-> Replace this text with your explanation of routing, components, and design decisions.
+> Replace this with your explanation (power stage, routing, placement, etc.)
 
-### Inner Layer 1
+### Layer 2
 
-![Inner Layer 1](./images/inner1.png)
+![Layer 2](./All_layers/Layer2.png)
 
-> Replace this text with your explanation.
+> Replace this with your explanation
 
-### Inner Layer 2
+### Layer 3
 
-![Inner Layer 2](./images/inner2.png)
+![Layer 3](./All_layers/Layer3.png)
 
-> Replace this text with your explanation.
+> Replace this with your explanation
 
-### Inner Layer 3
+### Layer 4
 
-![Inner Layer 3](./images/inner3.png)
+![Layer 4](./All_layers/Layer4.png)
 
-> Replace this text with your explanation.
+> Replace this with your explanation
 
-### Inner Layer 4
+### Layer 5
 
-![Inner Layer 4](./images/inner4.png)
+![Layer 5](./All_layers/Layer5.png)
 
-> Replace this text with your explanation.
+> Replace this with your explanation
 
-### Bottom Layer
+### Layer 6
 
-![Bottom Layer](./images/bottom.png)
+![Layer 6](./All_layers/Layer6.png)
 
-> Replace this text with your explanation.
+> Replace this with your explanation
 
 ---
 
 ## ⚙️ Firmware
 
-The firmware is based on and adapted from:
+The firmware is adapted from:
 👉 https://github.com/k-omura
 
-It has been modified to:
+Modified to:
 
-* Support this specific hardware design
-* Implement reliable **sensorless BLDC control**
-* Operate within RC constraints (fast throttle response, stability)
+* Match this hardware design
+* Implement sensorless BLDC control
+* Optimize for RC vehicle response
 
 ---
 
 ## 🏎️ Target Motor
 
-* **Type:** 3660 Brushless Motor
-* **KV Rating:** 4200KV
-* **Poles:** 4
-* **Max RPM:** ~50,000 RPM
-* **Current:** Up to 100A spikes
+* **3660 BLDC Motor**
+* **4200KV**
+* **4 poles**
+* **Max RPM:** ~50,000
+* **Current spikes:** up to 100A
 
 ---
 
 ## 📌 Notes
 
-* Designed specifically for **RC car applications**
-* Focus on **high efficiency + fast response**
-* Still under continuous improvement and testing
+* Designed for RC car applications
+* Focus on performance and efficiency
+* Continuously improved and tested
