@@ -59,25 +59,25 @@ It captures joystick inputs and transmits control data wirelessly to the receive
 
 ### Layer 1
 
-![Layer 1](./All_layers/Layer1.png)
+![Layer 1](./All_layers/layer1.png)
 
 > Replace this with your explanation (component placement, routing strategy, etc.)
 
 ### Layer 2
 
-![Layer 2](./All_layers/Layer2.png)
+![Layer 2](./All_layers/layer2.png)
 
 > Replace this with your explanation
 
 ### Layer 3
 
-![Layer 3](./All_layers/Layer3.png)
+![Layer 3](./All_layers/layer3.png)
 
 > Replace this with your explanation
 
 ### Layer 4
 
-![Layer 4](./All_layers/Layer4.png)
+![Layer 4](./All_layers/layer4.png)
 
 > Replace this with your explanation
 
