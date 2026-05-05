@@ -6,7 +6,7 @@ Custom 3-phase sensorless BLDC ESC designed for high-performance RC applications
 
 ## Schematic
 
-![Schematic](./Schematic.jpeg)
+![Schematic](./Schematic.jpeg),(./Schematic1.jpeg)
 
 > Full system schematic including control logic, power stage, and feedback network.
 
