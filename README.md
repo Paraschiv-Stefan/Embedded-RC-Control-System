@@ -33,7 +33,7 @@ It captures joystick inputs and transmits control data wirelessly to the receive
 
 ## 📐 Schematic
 
-![Schematic](./Schematic.jpeg)
+![Schematic](./Schematic_T.jpeg)
 
 > Replace this text with your explanation of the schematic:
 >
