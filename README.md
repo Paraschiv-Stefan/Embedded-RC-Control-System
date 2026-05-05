@@ -1,6 +1,7 @@
-# 🎮 Transmitter (Controller)
+# Transmitter (Controller)
 
 Custom handheld controller for wireless control of the RC vehicle.
+I took down a worn down Xbox one controller, reused any parts that I could and remade my own PCB that fits inside the controller case so i can have a similar feel to the racing games I used to play and enojoy.
 
 ---
 
