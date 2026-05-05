@@ -8,7 +8,7 @@ I have uploaded the excel file where you can find each component I used for the 
 
  - PCB design of the ESC (Electronic Speed Controller) which will work as:
     - sensorless BLDC motor control
-    - Brushed motor control
+    - Brushless motor control
     - [ESC](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/ESC-(Electronic-Speed-Controller))
 - PCB and Software for the controller(Transmitter) which will be used to communicate with the Receiver
     - [Controller](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/Controller-(Transmitter))
