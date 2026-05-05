@@ -1,13 +1,25 @@
 # Embedded Motor Control System for an RC Vehicle
-All the work I've done so far.
 
+Custom-built hardware and firmware stack for controlling a hobby-grade RC vehicle that should achieve speeds over 50Km/h.
 
- - PCB design of the ESC (Electronic Speed Controller) which will work as:
-    - sensorless BLDC motor control
-    - Brushless motor control
-    - [ESC](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/ESC-(Electronic-Speed-Controller))
-- PCB and Software for the controller(Transmitter) which will be used to communicate with the Receiver
-    - [Controller](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/Controller-(Transmitter))
-- Software of the receiver which will comunicate with the transmitter to operate the ESC and Servo!
-    - [Receiver](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/Receiver)
+## Components
 
+* **ESC (Electronic Speed Controller)**
+  Sensorless BLDC motor control with custom PCB
+  - https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/ESC-(Electronic-Speed-Controller)
+
+* **Transmitter (Controller)**
+  Custom controller PCB + wireless communication
+  - https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/Controller-(Transmitter)
+
+* **Receiver**
+  Receives commands and controls ESC + servo
+  - https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/Receiver
+
+## Focus
+
+Embedded systems • PCB design • BLDC control • Wireless communication
+
+---
+
+This repository contains the complete development of a fully custom RC control system.
