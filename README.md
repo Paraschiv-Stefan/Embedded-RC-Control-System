@@ -6,7 +6,7 @@ Custom-built hardware and firmware stack for controlling a hobby-grade RC vehicl
 
 * **ESC (Electronic Speed Controller)**
   Sensorless BLDC motor control with custom PCB
-  - https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/ESC-(Electronic-Speed-Controller)
+  - [ESC](https://github.com/Paraschiv-Stefan/Hobby-Grade-RC-Electronics-Hard-Soft-/tree/ESC-(Electronic-Speed-Controller))
 
 * **Transmitter (Controller)**
   Custom controller PCB + wireless communication
